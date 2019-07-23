@@ -1,4 +1,4 @@
-//sdmoore:  State machine that looks for the BCD sequence of #68.
+//sdmoore: Moore Finite State machine that looks for the BCD sequence of #68.
 //    If the sequence is reached, then it outputs a 1 on dout, and displays
 //    an end of sequence confirmation.
 module sdmoore(input bit clk,
